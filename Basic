@@ -1,0 +1,969 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,sum;
+	printf("Enter the value of a: ");
+	scanf("%d",&a);
+	printf("Enter the value of b: ");
+	scanf("%d",&b);
+	sum=a+b;
+	printf("The sum=%d",sum);
+    return 0;
+}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int a,b,sum;
+//	printf("Enter two values: ");
+//	scanf("%d%d",&a,&b);
+//	sum=a+b;
+//	printf("The sum=%d",sum);
+//    return 0;
+//}
+//
+//// You are using GCC
+//#include<stdio.h>
+//int main()
+//{
+//	int a,b,sum,sub,mul;
+//	//printf("Enter two values: ");
+//	scanf("%d%d",&a,&b);
+//	sum=a+b;
+//	sub=a-b;
+//	mul=a*b;
+//	printf("The sum=%d\n",sum);
+//	printf("The sub =%d\n",sub);
+//	printf("The multi =%d\n",mul);
+//    return 0;
+//}
+//
+//
+//// You are using GCC
+//#include<stdio.h>
+//int main()
+//{
+//	float a,b,sum,sub,mul;
+//	//printf("Enter two values: ");
+//	scanf("%f%f",&a,&b);
+//	sum=a+b;
+//	sub=a-b;
+//	mul=a*b;
+//	printf("The sum=%.1f\n",sum);
+//	printf("The sub =%.2f\n",sub);
+//	printf("The multi =%.3f\n",mul);
+//    return 0;
+//}
+//
+//
+//// You are using GCC
+//#include<stdio.h>
+//int main()
+//{
+//	int side,area;//allocation of memory
+//	scanf("%d",&side);//Input
+//	area=side*side;//logic
+//	printf("The area of square=%d",area);//output
+//	return 0;
+//}
+//
+//
+//
+//// You are using GCC
+//#include<stdio.h>
+//int main()
+//{
+//	int l,b,area;//allocation of memory
+//	scanf("%d%d",&l,&b);//Input
+//	area=l*b;//logic
+//	printf("The area of rectangle=%d",area);//output
+//	return 0;
+//}
+//
+//
+//// You are using GCC
+//#include<stdio.h>
+//int main()
+//{
+//	double b,h,area;//allocation of memory
+//	scanf("%lf%lf",&b,&h);//Input
+//	//area=1.0/2*b*h;//logic
+//	//area=(float)1/2*b*h;
+//	//area=1/(float)2*b*h;
+//	//area=(float)1/(float)2*b*h;
+//	//area=0.5*b*h;
+//	area=(b*h)/2;
+//	printf("The area of traingle=%.2lf",area);//output
+//	return 0;
+//}
+
+
+//#include<stdio.h>
+//int main()
+//{
+//	int x=6;
+//	printf("%d\n",x);
+//	printf("%d\n",++x);
+//	printf("%d\n",x++);
+//	printf("%d\n",x);
+//	x++;
+//	++x;
+//	printf("%d\n",x);
+//	printf("%d\n",x--);
+//	printf("%d\n",--x);
+//	return 0;
+//}
+
+
+//#include<stdio.h>
+//int main()
+//{
+//	int x=5;
+//	//int y=++x;
+//	int y=x++;
+//	printf("%d %d",x,y);
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	printf("%d\n",5>6);
+//	printf("%d\n",5<6);
+//	printf("%d\n",6==6);
+//	printf("%d\n",5!=6);
+//	printf("%d\n",5>=6);
+//	printf("%d\n",5<=6);
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	printf("%d\n",4&6);
+//	printf("%d\n",5|3);
+//	printf("%d\n",5^4);
+//	printf("%d\n",~7);
+//	printf("%d\n",25<<3);
+//	printf("%d\n",25>>3);
+//}
+
+/*#include<stdio.h>
+int main()
+{
+	int a=7;
+	printf("%d bytes\n",sizeof(a));
+	printf("%d bytes\n",sizeof(int));
+	printf("%d bytes\n",sizeof(6.7f));
+	printf("%d bytes\n",sizeof(char));
+}*/
+
+
+#include<stdio.h>
+int main()
+{
+    int p=1000;
+    float r=8;
+    int t=2;
+    float SI=p*r*t/100;
+    printf("SI=%.2f",SI);
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+    int p,t;
+    float r;
+    scanf("%d%f%d",&p,&r,&t);
+    float SI=p*r*t/100;
+    printf("SI=%.2f",SI);
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+    double a,b,c,d,e,tot,avg;
+    scanf("%lf%lf%lf%lf%lf",&a,&b,&c,&d,&e);
+    tot=a+b+c+d+e;
+    avg=tot/5;
+    printf("Average=%.2lf",avg);
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+    double a,b,c,d,e,avg;
+    scanf("%lf%lf%lf%lf%lf",&a,&b,&c,&d,&e);
+    avg=(a+b+c+d+e)/5;
+    printf("Average=%.2lf",avg);
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    double avg;
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    avg=(a+b+c+d+e)/5.0;// avg=(a+b+c+d+e)/(float)5;
+    printf("Average=%.2lf",avg);
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    printf("Before Swap a=%d b=%d\n",a,b);
+    c=a;
+    a=b;
+    b=c;
+    printf("After Swap a=%d b=%d\n",a,b);
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    //(n>=0)?printf("No. is +ve"):printf("No. is -ve");
+    (n>=0)?(n>0)?printf("+ve"):printf("No. is zero"):printf("-ve");
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    //a>b?printf("a is greater"):printf("b is greater");
+    //a>b?printf("%d is greater",a):printf("%d is greater",b);
+    //printf("%d is greater",a>b?a:b);
+    int max=a>b?a:b;
+    printf("%d is greater",max);
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    (a>b)?(a>c)?printf("a is greatest"):printf("c is greatest"):(b>c)?printf("b is greatest"):printf("c is greatest");
+    printf("%d is greatest",(a>b)?(a>c)?a:c:(b>c)?b:c);
+    
+    return 0;
+}
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>8)
+    {
+        printf("Hello");
+    }
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>8)
+    printf("Hello");
+    printf("Bye");
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>8)
+    {
+    printf("Hello");
+    printf("Bye");
+    }
+    return 0;
+}
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>8);
+    {
+    printf("Hello");
+    printf("Bye");
+    }
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int age;
+    scanf("%d",&age);
+    if(age>=18)
+    printf("Eligible for voting");
+    else
+    printf("Not eligible");
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int age;
+    scanf("%d",&age);
+    if(age>=18);//error (else without if)
+    printf("Eligible for voting");
+    else
+    printf("Not eligible");
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int age;
+    scanf("%d",&age);
+    if(age>=18)
+    printf("Eligible for voting");
+    else
+    printf("Not eligible");
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n%2==0 && n%8==0)//if(n%2==0 || n%8==0)//either with 2 or 8
+    printf("divisible by both");
+    else
+    printf("Not divisble");
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E')//complete 
+    printf("%c is vowel",ch);
+    else
+    printf("Not a vowel");
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    //if(ch>='A' && ch<='Z')
+    if(ch>=65 && ch<=90)
+    {
+     ch=ch+32;
+    }
+    printf("Character in lower case is %c",ch);
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int year;
+    scanf("%d",&year);
+    if((year%4==0) && (year%100!=0) || (year%400==0))
+    printf("%d is a leap year",year);
+    else
+    printf("%d is not a leap year",year);
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int year;
+    scanf("%d",&year);
+    if((year%4==0) && (year%100!=0) || (year%400==0))
+    {
+    printf("%d is a leap year",year);
+    }
+    else
+    {
+    printf("%d is not a leap year",year);
+    }
+    return 0;
+}
+
+//if else if ladder
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b && a>c)
+    printf("%d is greatest",a);
+    else if(b>a && b>c)
+    printf("%d is greatest",b);
+    else
+    printf("%d is greatest",c);
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b && a>c)
+    printf("%d is greatest",a);
+    else if(b>c)
+    printf("%d is greatest",b);
+    else
+    printf("%d is greatest",c);
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b && a>c)
+    printf("%d is greatest",a);
+    else if(b>c && b>a)
+    printf("%d is greatest",b);
+    else if(c>a && c>b)
+    printf("%d is greatest",c);
+    return 0;
+}
+
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b && a>c)
+    printf("%d is greatest",a);
+    if(b>c && b>a)
+    printf("%d is greatest",b);
+    if(c>a && c>b)
+    printf("%d is greatest",c);
+    return 0;
+}
+
+//nested if
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b)
+    {
+        if(a>c)
+        printf("%d is greatest",a);
+        else
+        printf("%d is greatest",c);
+    }
+    else
+    {
+        if(b>c)
+        printf("%d is greatest",b);
+        else
+        printf("%d is greatest",c);
+    }
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n>=0)
+    {
+        if(n>0)
+        printf("No. is +ve");
+        else
+        printf("No. is zero");
+    }
+    else
+    {
+        printf("No. is -ve");
+    }
+    return 0;
+}
+
+
+// You are using GCC
+#include<stdio.h>
+int main()
+{
+    int m1,m2,m3,m4,m5;
+    float per;
+    scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+    per=(m1+m2+m3+m4+m5)/5.0;
+    printf("Percentage=%.2f\n",per);
+    if(per>=90)
+    printf("O grade");
+    else if(per>=80 && per<90)
+    printf("A+ grade");
+    else if(per>=70 && per<80)
+    printf("A grade");
+    else if(per>=60 && per<70)
+    printf("B+ grade");
+    else
+    printf("Fail");
+    return 0;
+}
+
+//Loop
+// printing 1 to 10
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i=1;i<=10;i++)
+	printf("%d ",i);
+	return 0;
+}
+
+//10 to 1
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i=10;i>=1;i--)
+	printf("%d ",i);
+	return 0;
+}
+//sum of first n natural numbers
+#include<stdio.h>
+int main()
+{
+	int n,i,sum=0;
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		sum=sum+i;//sum+=i
+	}
+	printf("Sum=%d",sum);
+}
+//Multiplication of first n natural nos(factorial)
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	long int fact=1;
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		fact=fact*i;
+	}
+	printf("Factorial=%ld",fact);
+}
+
+// count even nos between a particular range
+#include<stdio.h>
+int main()
+{
+	int m,n,i,counte=0,counto=0;
+	scanf("%d%d",&m,&n);
+	for(i=m;i<=n;i++)
+	{
+		if(i%2==0)
+		counte++;
+		else
+		counto++;
+	}
+	printf("Count of even no=%d\n",counte);
+	printf("Count of odd no=%d\n",counto);
+}
+
+
+//sum of digits of a number
+
+#include<stdio.h>
+int main()
+{
+	int n,rem,sum=0;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		rem=n%10;
+		sum=sum+rem;
+		n=n/10;
+	}
+	printf("Sum=%d",sum);
+	return 0;
+}
+
+
+
+//reverse
+
+#include<stdio.h>
+int main()
+{
+	int n,rem,rev=0;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		rem=n%10;
+		rev=rev*10+rem;
+		n=n/10;
+	}
+	printf("Reverse=%d",rev);
+	return 0;
+}
+
+//Palindrome
+
+#include<stdio.h>
+int main()
+{
+	int n,rem,rev=0,t;
+	scanf("%d",&n);
+	t=n;
+	while(n!=0)
+	{
+		rem=n%10;
+		rev=rev*10+rem;
+		n=n/10;
+	}
+	printf("Reverse=%d",rev);
+	if(t==rev)
+	printf("No. is palindrome");
+	else
+	printf("No. is not palindrome");
+	return 0;
+}
+
+//count no. of digits
+#include<stdio.h>
+int main()
+{
+	int n,count=0;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+	  count++;
+	  n=n/10;	
+	}
+	printf("count=%d",count);
+	return 0;
+}
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int side,i;
+	for(i=5;i<10;i++)
+	{
+	scanf("%d",&side);
+	printf("Area of square is %d\n",side*side);
+}
+	return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+	char choice;
+	int side;
+    do
+    {
+	scanf("%d",&side);
+	printf("Area of square is %d\n",side*side);
+	printf("DO you want to continue:");
+	scanf(" %c",&choice);
+    }while(choice=='y'||choice=='Y');
+	return 0;
+}
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	char choice,ch;
+	int a,b,c;
+    do
+    {
+	printf("press + for addition\n");
+     printf("press -for subtraction\n");
+     printf("press * for mutiplication\n");
+     printf("press / for division\n");
+     printf("press %% for remainder\n");
+      printf("enter your choice\n");
+      scanf(" %c",&ch);
+     printf("enter the value of a and b");
+     scanf("%d%d",&a,&b);
+     switch(ch)
+     {
+               case '+':
+                    c=a+b;
+                    printf("the sum=%d",c);
+                    break;
+               case '-':
+                    c=a-b;
+                    printf("the sub=%d",c);
+                    break;
+               case '*':
+                    c=a*b;
+                    printf("the multiplication=%d",c);
+                    break;
+               case '/':
+                    c=a/b;
+                    printf("the div=%d",c);
+                    break;
+                default:
+                    printf("no match found");
+                    break;
+               case '%':
+                    c=a%b;
+                    printf("the remainder=%d",c);
+                    //break;
+                    } 
+	printf("DO you want to continue:");
+	scanf(" %c",&choice); 
+    }while(choice=='y'||choice=='Y');
+	return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	int n,sum=0,i;
+	for(i=1;i<=5;i++)
+	{
+		scanf("%d",&n);
+		if(n<0)
+		{
+			break;
+		}
+		sum=sum+n;
+	}
+	printf("Sum=%d",sum);
+	
+	return 0;
+	
+}
+
+
+#include<stdio.h>
+int main()
+{
+	int n,sum=0,i;
+	for(i=1;i<=5;i++)
+	{
+		scanf("%d",&n);
+		if(n<0)
+		{
+			continue;
+		}
+		sum=sum+n;
+	}
+	printf("Sum=%d",sum);
+	
+	return 0;
+	
+}
+
+
+// NO RT NO ARG
+#include<stdio.h>
+void area();//Function Declaration
+int main()
+{
+    area();//Function Calling
+    return 0;
+}
+void area()//Function Definition
+{
+    float r,aoc;
+    scanf("%f",&r);
+    aoc=3.14*r*r;
+    printf("Area of circle is %.2f",aoc);
+}
+
+
+//WITH RT NO ARG
+
+#include<stdio.h>
+float area();//Function Declaration
+int main()
+{
+    /*float r;
+    r=area();//Function Calling
+    printf("Area of circle is %.2f",r);*/
+    printf("Area of circle is %.2f",area());
+    return 0;
+}
+float area()//Function Definition
+{
+    float r,aoc;
+    scanf("%f",&r);
+    aoc=3.14*r*r;
+   // printf("Area of circle is %.2f",aoc);
+   return aoc;
+}
+
+
+// NO RT NO ARG
+#include<stdio.h>
+void area()//Function Definition
+{
+    float r,aoc;
+    scanf("%f",&r);
+    aoc=3.14*r*r;
+    printf("Area of circle is %.2f",aoc);
+}
+int main()
+{
+    area();//Function Calling
+    return 0;
+}
+
+
+// NO RT NO ARG
+#include<stdio.h>
+void areac();//Function Declaration
+void arear();
+int main()
+{
+    areac();//Function Calling
+    //arear();
+    return 0;
+}
+void areac()//Function Definition
+{
+    arear();
+    float r,aoc;
+    scanf("%f",&r);
+    aoc=3.14*r*r;
+    printf("Area of circle is %.2f\n",aoc);
+}
+void arear()
+{
+    int l,b;
+    scanf("%d%d",&l,&b);
+    printf("Area of rectangle= %d\n",l*b);
+}
+
+
+// NO RT WITH ARG
+#include<stdio.h>
+void areac(float);//Function Declaration
+int main()
+{
+    float r;
+    scanf("%f",&r);
+    areac(r);//Function Calling
+    return 0;
+}
+void areac(float r)//Function Definition
+{
+    float aoc;
+    aoc=3.14*r*r;
+    printf("Area of circle is %.2f\n",aoc);
+}
+
+
+//WITH RT WITH ARG
+
+#include<stdio.h>
+float area(float);//Function Declaration
+int main()
+{
+    float r,aoc;
+    scanf("%f",&r);
+    /*aoc=area(r);
+    printf("Area of circle is %.2f",aoc);*/
+    printf("Area of circle is %.2f",area(r));
+    return 0;
+}
+float area(float r)//Function Definition
+{
+    /*float aoc;
+    aoc=3.14*r*r;
+   return aoc;*/
+   return 3.14*r*r;
+}
