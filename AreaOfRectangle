@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int l,b,area;//allocation of memory
+	scanf("%d%d",&l,&b);//Input
+	area=l*b;//logic
+    printf("The area of rectangle=%d",area);//output
+	return 0;
+}

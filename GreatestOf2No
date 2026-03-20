@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    //a>b?printf("a is greater"):printf("b is greater");
+    //a>b?printf("%d is greater",a):printf("%d is greater",b);
+    //printf("%d is greater",a>b?a:b);
+    int max=a>b?a:b;
+    printf("%d is greater",max);
+    return 0;
+}

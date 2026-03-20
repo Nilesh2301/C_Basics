@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	printf("%d\n",4&6); //and gate
+	printf("%d\n",5|3);  //or gate
+	printf("%d\n",5^4);  /exor gate
+	printf("%d\n",~7); //compliment
+	printf("%d\n",25<<3); //leftshift
+	printf("%d\n",25>>3); //rightshift
+}

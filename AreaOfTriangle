@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	double b,h,area;//allocation of memory
+	scanf("%lf%lf",&b,&h);//Input
+	//area=1.0/2*b*h;//logic
+	//area=(float)1/2*b*h;
+	//area=1/(float)2*b*h;
+	//area=(float)1/(float)2*b*h;
+	//area=0.5*b*h;
+	area=(b*h)/2;
+	printf("The area of traingle=%.2lf",area);//output
+	return 0;
+}
