@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n%2==0 && n%8==0)//if(n%2==0 || n%8==0)//either with 2 or 8
+    printf("divisible by both");
+    else
+    printf("Not divisble");
+    return 0;
+}
