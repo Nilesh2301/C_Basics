@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+long long int OddMultiply(int n){
+    long long int pro = 1;
+
+    for(int i = 1; i <= n; i++){
+        if(i % 2 != 0){
+            pro = pro * i;
+        }
+    }
+
+    return pro;
+}
+
+int main(){
+    long long int n;
+    scanf("%lld", &n);
+
+    long long int result = OddMultiply(n);
+    printf("%lld", result);
+
+    return 0;
+}
