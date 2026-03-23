@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int m,n,i,counte=0,counto=0;
+	scanf("%d%d",&m,&n);
+	for(i=m;i<=n;i++)
+	{
+		if(i%2==0)
+		counte++;
+		else
+		counto++;
+	}
+	printf("Count of even no=%d\n",counte);
+	printf("Count of odd no=%d\n",counto);
+}
