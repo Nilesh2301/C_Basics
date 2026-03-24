@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+	int n,i,sum=0;
+	printf("Enter the No. of Elements");
+	scanf("%d",&n);
+	int a[n];
+	for(i=0;i<n;i++){
+		scanf("%d",&a[i]);
+		if(a[i]%4==0 || a[i]%10==0){
+			sum=sum+a[i];
+		}
+	}
+	printf("\n sum of divi by 4 0r 10 : %d\n",sum);
+	
+	
+}
+
