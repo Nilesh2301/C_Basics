@@ -18,5 +18,5 @@ int main(){
 			smax=a[i];
 		}
 	}
-	printf("Largest No. Is= %d",smax);
+	printf("Second Largest No. Is= %d",smax);
 }
