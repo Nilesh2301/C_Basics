@@ -1,0 +1,14 @@
+#include<stdio.h>
+void area();//Function Declaration
+int main()
+{
+    area();//Function Calling
+    return 0;
+}
+void area()//Function Definition
+{
+    float r,aoc;
+    scanf("%f",&r);
+    aoc=3.14*r*r;
+    printf("Area of circle is %.2f",aoc);
+}
