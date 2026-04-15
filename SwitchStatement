@@ -7,7 +7,7 @@ int main()
     do
     {
 	printf("press + for addition\n");
-     printf("press -for subtraction\n");
+     printf("press - for subtraction\n");
      printf("press * for mutiplication\n");
      printf("press / for division\n");
      printf("press %% for remainder\n");
