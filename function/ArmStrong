@@ -4,7 +4,7 @@
 void checkArmstrong(int *n) {
     int temp = *n, c = 0, sum = 0;
 
-    // Count digits
+    
     while (temp > 0) {
         temp = temp / 10;
         c++;
@@ -12,7 +12,7 @@ void checkArmstrong(int *n) {
 
     temp = *n;
 
-    // Calculate sum
+    
     while (temp > 0) {
         int digit = temp % 10;
         sum = sum + pow(digit, c);
@@ -28,6 +28,6 @@ void checkArmstrong(int *n) {
 int main() {
     int n;
     scanf("%d", &n);
-    checkArmstrong(&n);   // Call by reference
+    checkArmstrong(&n);   
     return 0;
 }
