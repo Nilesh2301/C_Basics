@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	int i,n;
+	float *p ,avg=0,sum=0;
+	scanf("%d",&n);
+	p=(float*)malloc(n*sizeof(float));
+	for(i=0;i<n;i++){
+		scanf("%f",p+i);
+	}
+	for(i=0;i<n;i++){
+		sum=sum+*(p+i);
+	}
+avg=sum/n;
+printf("%.2f",avg);
+free(p);
+return 0;
+	
+	
+}
