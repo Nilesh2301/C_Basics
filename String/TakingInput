@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+	char s1[15],s2[15];
+	gets(s1);
+	int i,n;
+	printf("\n 1st method to print  string char by char\n");
+	n=strlen(s1);
+	for(i=0;i<n;i++){
+		printf("%c",s1[i]);
+	}
+	printf("\n\n 2nd method\n");
+	for(i=0;s1[i]!='\0';i++){
+		printf("%c",s1[i]);
+	}
+	return 0;
+}
