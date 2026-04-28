@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+	char s1[15],s2[15],ch;
+	gets(s1);
+	int i,n;
+	printf("Which character occurence you want");
+	scanf("%c",&ch);
+	int count=0;
+	for(i=0;s1[i]!='\0';i++){
+		if(s1[i]==ch){
+			count++;
+			}
+		}
+	printf("\n\nLenth of string= %d\n",count);
+	
+	return 0;
+}
