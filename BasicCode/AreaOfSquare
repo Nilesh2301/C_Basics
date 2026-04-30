@@ -6,4 +6,4 @@ int main()
 	area=side*side;//logic
 	printf("The area of square=%d",area);//output
 	return 0;
-}
+}//
