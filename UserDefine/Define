@@ -1,0 +1,14 @@
+#include<stdio.h>
+struct student{
+	char name[15];
+	int roll;
+	float cgpa;
+}s,s1;
+int main(){
+	scanf("%s%d%f",s.name,&s.roll,&s.cgpa);
+	scanf("%s%d%f",s1.name,&s1.roll,&s1.cgpa);
+	printf("The detail are: \n");
+	printf("%s\n%d\n%f\n",s.name,s.roll,s.cgpa);
+	printf("%s\n%d\n%f",s1.name,s1.roll,s1.cgpa);
+	return 0;
+}
