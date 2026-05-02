@@ -12,7 +12,7 @@ int main(){
 	}
 
 	
-printf("Sum of even element in a matrix  %d",sum);
+printf("Sum of diagonal element in a matrix  %d",sum);
 
 return 0;
 }
