@@ -1,0 +1,14 @@
+#include <stdio.h>
+struct car{
+	char brand[20];
+	int seats;
+	int price ;
+	
+}s1,s2;
+int main(){
+	scanf("%s%d%d",s1.brand,&s1.seats,&s1.price);
+	scanf("%s%d%d",s2.brand,&s2.seats,&s2.price);
+	printf("%s\n%d\n%d First CAR",s1.brand,s1.seats,s1.price);
+	printf("%s\n%d\n%d Second CAr",s2.brand,s2.seats,s2.price);
+	return 0;
+}
