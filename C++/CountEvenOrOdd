@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int m,n,i,counto=0,counte=0;
+	cin>>m>>n;
+	for(i=m;i<=n;i++){
+		if(i%2==0){
+		counte++;
+	}
+		else{
+		counto++;}
+	}
+	cout<<"Even no. count : "<<counte<<"\n"<<"and odd no. count: "<<counto; //\n or end1 for next line 
+		
+}
