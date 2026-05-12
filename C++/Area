@@ -1,0 +1,37 @@
+#include <iostream>
+class rectangle
+{
+	private:
+		int a,b;
+		public:
+			void setdata(int x,int y)
+			{
+				a=x;
+				b=y;
+			}
+			void area(){
+				int ar=a*b;
+				cout<<"Area is"<<ar;
+			}
+};
+class square{
+	private:
+		int a;
+	public:
+		void setdsata(int p)	{
+			a=p;
+		}
+		int area(){
+			int ar=a*a;
+			cout<<"Area of square="<<ar;
+		}
+};
+int main(){
+	rectanlge r;
+	square s;
+	r.setdata(2,4);
+	r.area();
+	s.setdata(4);
+	s.area();
+}
+//error
